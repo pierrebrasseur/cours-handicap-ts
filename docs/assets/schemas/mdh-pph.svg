@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="env" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d6eaf8"/><stop offset="1" stop-color="#a3c6e9"/>
+    </linearGradient>
+    <linearGradient id="pers" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fde2e2"/><stop offset="1" stop-color="#f9b3b3"/>
+    </linearGradient>
+    <linearGradient id="hab" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff3cd"/><stop offset="1" stop-color="#f6d76a"/>
+    </linearGradient>
+  </defs>
+
+  <text x="500" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a2e">Modèle MDH-PPH</text>
+  <text x="500" y="62" text-anchor="middle" font-size="13" fill="#666">Fougeyrollas 2010 · RIPPH Québec — la métaphore du funambule</text>
+
+  <!-- Toile = environnement -->
+  <rect x="60" y="100" width="880" height="400" rx="20" fill="url(#env)" stroke="#1565c0" stroke-width="2" opacity="0.6"/>
+  <text x="500" y="130" text-anchor="middle" font-weight="700" font-size="16" fill="#003366">FACTEURS ENVIRONNEMENTAUX (la toile)</text>
+  <text x="180" y="155" text-anchor="middle" font-size="11" fill="#1565c0">Politiques sociales</text>
+  <text x="350" y="155" text-anchor="middle" font-size="11" fill="#1565c0">Aménagements</text>
+  <text x="520" y="155" text-anchor="middle" font-size="11" fill="#1565c0">Attitudes sociales</text>
+  <text x="690" y="155" text-anchor="middle" font-size="11" fill="#1565c0">Famille / réseau</text>
+  <text x="860" y="155" text-anchor="middle" font-size="11" fill="#1565c0">Technologies</text>
+
+  <!-- Personne = funambule -->
+  <g transform="translate(100,260)">
+    <rect width="180" height="200" rx="14" fill="url(#pers)" stroke="#c44" stroke-width="2"/>
+    <text x="90" y="30" text-anchor="middle" font-weight="700" font-size="14" fill="#900">LA PERSONNE</text>
+    <text x="90" y="48" text-anchor="middle" font-size="10" fill="#900">(le funambule)</text>
+    <line x1="20" y1="60" x2="160" y2="60" stroke="#c44" opacity="0.4"/>
+    <text x="90" y="85" text-anchor="middle" font-size="11">Facteurs identitaires</text>
+    <text x="90" y="105" text-anchor="middle" font-size="11">Systèmes organiques</text>
+    <text x="90" y="125" text-anchor="middle" font-size="11">Aptitudes</text>
+    <text x="90" y="160" text-anchor="middle" font-size="10" fill="#666" font-style="italic">≠ caractéristique</text>
+    <text x="90" y="175" text-anchor="middle" font-size="10" fill="#666" font-style="italic">individuelle figée</text>
+  </g>
+
+  <!-- Habitudes de vie = fil -->
+  <g transform="translate(320,360)">
+    <rect width="360" height="60" rx="30" fill="url(#hab)" stroke="#b8860b" stroke-width="2"/>
+    <text x="180" y="30" text-anchor="middle" font-weight="700" font-size="14" fill="#664400">HABITUDES DE VIE</text>
+    <text x="180" y="48" text-anchor="middle" font-size="11" fill="#664400">(le fil tendu entre la personne et l'environnement)</text>
+  </g>
+
+  <!-- Résultat -->
+  <g transform="translate(720,260)">
+    <rect width="180" height="200" rx="14" fill="#e8d5f4" stroke="#5e2ca5" stroke-width="2"/>
+    <text x="90" y="30" text-anchor="middle" font-weight="700" font-size="14" fill="#5e2ca5">SITUATION</text>
+    <text x="90" y="50" text-anchor="middle" font-weight="700" font-size="14" fill="#5e2ca5">DE HANDICAP</text>
+    <line x1="20" y1="62" x2="160" y2="62" stroke="#5e2ca5" opacity="0.4"/>
+    <text x="90" y="90" text-anchor="middle" font-size="11">ou</text>
+    <text x="90" y="120" text-anchor="middle" font-weight="700" font-size="14" fill="#5e2ca5">SITUATION</text>
+    <text x="90" y="140" text-anchor="middle" font-weight="700" font-size="14" fill="#5e2ca5">DE PARTICIPATION</text>
+    <text x="90" y="170" text-anchor="middle" font-size="10" fill="#666" font-style="italic">selon la qualité</text>
+    <text x="90" y="185" text-anchor="middle" font-size="10" fill="#666" font-style="italic">de l'interaction</text>
+  </g>
+
+  <!-- Flèches -->
+  <line x1="280" y1="390" x2="318" y2="390" stroke="#5e2ca5" stroke-width="2"/>
+  <line x1="680" y1="390" x2="720" y2="390" stroke="#5e2ca5" stroke-width="2" marker-end="url(#arr2)"/>
+  <defs>
+    <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5e2ca5"/>
+    </marker>
+  </defs>
+
+  <text x="500" y="540" text-anchor="middle" font-size="12" fill="#1a1a2e" font-style="italic">« Le handicap n'est pas une caractéristique de la personne</text>
+  <text x="500" y="558" text-anchor="middle" font-size="12" fill="#1a1a2e" font-style="italic">mais le résultat contextuel d'une interaction. » — Fougeyrollas 2010</text>
+
+  <text x="500" y="588" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Pierre Brasseur · HETS Genève · 2026 · D'après Fougeyrollas / RIPPH</text>
+</svg>

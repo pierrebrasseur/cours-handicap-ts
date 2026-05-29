@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="gM" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fde2e2"/><stop offset="1" stop-color="#f9b3b3"/>
+    </linearGradient>
+    <linearGradient id="gS" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d6eaf8"/><stop offset="1" stop-color="#a3c6e9"/>
+    </linearGradient>
+    <linearGradient id="gMDH" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff3cd"/><stop offset="1" stop-color="#f6d76a"/>
+    </linearGradient>
+    <linearGradient id="gC" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8d5f4"/><stop offset="1" stop-color="#c39be0"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5e2ca5"/>
+    </marker>
+  </defs>
+
+  <text x="500" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a2e">Les quatre modèles du handicap</text>
+  <text x="500" y="62" text-anchor="middle" font-size="13" fill="#666">Grammaires actives coexistantes — pas étapes successives</text>
+
+  <!-- Médical -->
+  <g transform="translate(60,120)">
+    <rect width="200" height="180" rx="14" fill="url(#gM)" stroke="#c44" stroke-width="2"/>
+    <text x="100" y="32" text-anchor="middle" font-weight="700" font-size="16">Médical</text>
+    <text x="100" y="50" text-anchor="middle" font-size="11" fill="#444">Réadaptatif</text>
+    <line x1="20" y1="62" x2="180" y2="62" stroke="#c44" stroke-width="1" opacity="0.4"/>
+    <text x="100" y="86" text-anchor="middle" font-size="11" font-style="italic">Déficience à corriger</text>
+    <text x="100" y="115" text-anchor="middle" font-size="11" font-weight="600">Posture</text>
+    <text x="100" y="132" text-anchor="middle" font-size="11">Technicien</text>
+    <text x="100" y="147" text-anchor="middle" font-size="11">de la conformité</text>
+    <text x="100" y="170" text-anchor="middle" font-size="10" fill="#900">Stiker · LAI suisse</text>
+  </g>
+
+  <!-- Social -->
+  <g transform="translate(290,120)">
+    <rect width="200" height="180" rx="14" fill="url(#gS)" stroke="#1565c0" stroke-width="2"/>
+    <text x="100" y="32" text-anchor="middle" font-weight="700" font-size="16">Social</text>
+    <text x="100" y="50" text-anchor="middle" font-size="11" fill="#444">Oliver · UPIAS 1976</text>
+    <line x1="20" y1="62" x2="180" y2="62" stroke="#1565c0" stroke-width="1" opacity="0.4"/>
+    <text x="100" y="86" text-anchor="middle" font-size="11" font-style="italic">Barrières environnementales</text>
+    <text x="100" y="115" text-anchor="middle" font-size="11" font-weight="600">Posture</text>
+    <text x="100" y="132" text-anchor="middle" font-size="11">Acteur du</text>
+    <text x="100" y="147" text-anchor="middle" font-size="11">changement</text>
+    <text x="100" y="170" text-anchor="middle" font-size="10" fill="#003366">Impairment / Disability</text>
+  </g>
+
+  <!-- MDH-PPH -->
+  <g transform="translate(520,120)">
+    <rect width="200" height="180" rx="14" fill="url(#gMDH)" stroke="#b8860b" stroke-width="2"/>
+    <text x="100" y="32" text-anchor="middle" font-weight="700" font-size="16">MDH-PPH</text>
+    <text x="100" y="50" text-anchor="middle" font-size="11" fill="#444">Fougeyrollas · RIPPH</text>
+    <line x1="20" y1="62" x2="180" y2="62" stroke="#b8860b" stroke-width="1" opacity="0.4"/>
+    <text x="100" y="86" text-anchor="middle" font-size="11" font-style="italic">Interaction P × E</text>
+    <text x="100" y="115" text-anchor="middle" font-size="11" font-weight="600">Posture</text>
+    <text x="100" y="132" text-anchor="middle" font-size="11">Évaluateur</text>
+    <text x="100" y="147" text-anchor="middle" font-size="11">situationnel</text>
+    <text x="100" y="170" text-anchor="middle" font-size="10" fill="#664400">Funambule · fil · toile</text>
+  </g>
+
+  <!-- Droits + Capabilités -->
+  <g transform="translate(750,120)">
+    <rect width="200" height="180" rx="14" fill="url(#gC)" stroke="#5e2ca5" stroke-width="2"/>
+    <text x="100" y="32" text-anchor="middle" font-weight="700" font-size="16">Droits + Capabilités</text>
+    <text x="100" y="50" text-anchor="middle" font-size="11" fill="#444">CDPH 2006 · Nussbaum</text>
+    <line x1="20" y1="62" x2="180" y2="62" stroke="#5e2ca5" stroke-width="1" opacity="0.4"/>
+    <text x="100" y="86" text-anchor="middle" font-size="11" font-style="italic">Sujet de droits égaux</text>
+    <text x="100" y="115" text-anchor="middle" font-size="11" font-weight="600">Posture</text>
+    <text x="100" y="132" text-anchor="middle" font-size="11">Garant de droits</text>
+    <text x="100" y="147" text-anchor="middle" font-size="11">Facilitateur</text>
+    <text x="100" y="170" text-anchor="middle" font-size="10" fill="#4a1f7a">10 capabilités centrales</text>
+  </g>
+
+  <!-- Flèches entre modèles -->
+  <line x1="260" y1="210" x2="290" y2="210" stroke="#5e2ca5" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="490" y1="210" x2="520" y2="210" stroke="#5e2ca5" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="720" y1="210" x2="750" y2="210" stroke="#5e2ca5" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Bandeau bas -->
+  <rect x="60" y="370" width="890" height="180" rx="12" fill="#f7f5fb" stroke="#5e2ca5" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="505" y="400" text-anchor="middle" font-weight="700" font-size="15" fill="#5e2ca5">Pour le travail social</text>
+  <text x="505" y="430" text-anchor="middle" font-size="13" fill="#1a1a2e">Reconnaître le modèle dominant d'un dispositif,</text>
+  <text x="505" y="450" text-anchor="middle" font-size="13" fill="#1a1a2e">c'est déjà commencer à y intervenir.</text>
+
+  <text x="180" y="490" text-anchor="middle" font-size="11" fill="#666">Risque : ne pas</text>
+  <text x="180" y="505" text-anchor="middle" font-size="11" fill="#666">interroger l'environnement</text>
+
+  <text x="410" y="490" text-anchor="middle" font-size="11" fill="#666">Risque : minorer</text>
+  <text x="410" y="505" text-anchor="middle" font-size="11" fill="#666">la souffrance corporelle</text>
+
+  <text x="640" y="490" text-anchor="middle" font-size="11" fill="#666">Risque : difficulté</text>
+  <text x="640" y="505" text-anchor="middle" font-size="11" fill="#666">d'opérationnalisation</text>
+
+  <text x="850" y="490" text-anchor="middle" font-size="11" fill="#666">Risque : effectivité</text>
+  <text x="850" y="505" text-anchor="middle" font-size="11" fill="#666">variable des droits</text>
+
+  <text x="500" y="585" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Pierre Brasseur · HETS Genève · 2026</text>
+</svg>

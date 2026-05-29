@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <radialGradient id="r1" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fef3e2"/><stop offset="1" stop-color="#f6b40e" stop-opacity="0.4"/>
+    </radialGradient>
+    <radialGradient id="r2" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#e8d5f4"/><stop offset="1" stop-color="#5e2ca5" stop-opacity="0.4"/>
+    </radialGradient>
+    <radialGradient id="r3" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d6eaf8"/><stop offset="1" stop-color="#1565c0" stop-opacity="0.4"/>
+    </radialGradient>
+  </defs>
+
+  <text x="500" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a2e">Trois tensions structurelles de la posture professionnelle</text>
+  <text x="500" y="62" text-anchor="middle" font-size="13" fill="#666">À habiter de manière argumentée, pas à résoudre</text>
+
+  <!-- Tension 1 -->
+  <g transform="translate(40,110)">
+    <ellipse cx="150" cy="200" rx="150" ry="200" fill="url(#r1)" stroke="#b8860b" stroke-width="2"/>
+    <text x="150" y="50" text-anchor="middle" font-weight="700" font-size="15" fill="#5e2ca5">Tension 1</text>
+    <text x="150" y="72" text-anchor="middle" font-size="13" font-weight="600">Protection</text>
+    <text x="150" y="90" text-anchor="middle" font-size="11">↕</text>
+    <text x="150" y="108" text-anchor="middle" font-size="13" font-weight="600">Autonomie</text>
+
+    <line x1="40" y1="125" x2="260" y2="125" stroke="#b8860b" opacity="0.4"/>
+
+    <text x="150" y="155" text-anchor="middle" font-size="11" font-style="italic">« Dignity in risk »</text>
+    <text x="150" y="170" text-anchor="middle" font-size="10" fill="#666">Perske 1972</text>
+
+    <text x="150" y="200" text-anchor="middle" font-size="11" font-weight="600">Outils</text>
+    <text x="150" y="218" text-anchor="middle" font-size="11">CDPH art. 12</text>
+    <text x="150" y="232" text-anchor="middle" font-size="11">Soutien à la décision</text>
+
+    <text x="150" y="262" text-anchor="middle" font-size="11" font-weight="600">Cadre théorique</text>
+    <text x="150" y="280" text-anchor="middle" font-size="11">Éthique du care</text>
+    <text x="150" y="294" text-anchor="middle" font-size="10" fill="#666">Tronto · Paperman</text>
+    <text x="150" y="307" text-anchor="middle" font-size="10" fill="#666">Laugier</text>
+
+    <text x="150" y="345" text-anchor="middle" font-size="10" fill="#5e2ca5" font-style="italic">Vulnérabilité universelle</text>
+    <text x="150" y="360" text-anchor="middle" font-size="10" fill="#5e2ca5" font-style="italic">Redistribuer le care</text>
+  </g>
+
+  <!-- Tension 2 -->
+  <g transform="translate(370,110)">
+    <ellipse cx="150" cy="200" rx="150" ry="200" fill="url(#r2)" stroke="#5e2ca5" stroke-width="2"/>
+    <text x="150" y="50" text-anchor="middle" font-weight="700" font-size="15" fill="#5e2ca5">Tension 2</text>
+    <text x="150" y="72" text-anchor="middle" font-size="13" font-weight="600">Expertise pro</text>
+    <text x="150" y="90" text-anchor="middle" font-size="11">↕</text>
+    <text x="150" y="108" text-anchor="middle" font-size="13" font-weight="600">Savoir expérientiel</text>
+
+    <line x1="40" y1="125" x2="260" y2="125" stroke="#5e2ca5" opacity="0.4"/>
+
+    <text x="150" y="155" text-anchor="middle" font-size="11" font-style="italic">« Nothing about us</text>
+    <text x="150" y="170" text-anchor="middle" font-size="11" font-style="italic">without us »</text>
+    <text x="150" y="184" text-anchor="middle" font-size="10" fill="#666">Charlton 1998</text>
+
+    <text x="150" y="212" text-anchor="middle" font-size="11" font-weight="600">Outils</text>
+    <text x="150" y="230" text-anchor="middle" font-size="11">Pair-aidance</text>
+    <text x="150" y="244" text-anchor="middle" font-size="11">Co-construction</text>
+
+    <text x="150" y="274" text-anchor="middle" font-size="11" font-weight="600">Vigilance</text>
+    <text x="150" y="292" text-anchor="middle" font-size="11">Division témoin/expert</text>
+    <text x="150" y="306" text-anchor="middle" font-size="10" fill="#666">Brasseur &amp; Rodriguez</text>
+    <text x="150" y="319" text-anchor="middle" font-size="10" fill="#666">2019</text>
+
+    <text x="150" y="345" text-anchor="middle" font-size="10" fill="#5e2ca5" font-style="italic">Économie inégale</text>
+    <text x="150" y="360" text-anchor="middle" font-size="10" fill="#5e2ca5" font-style="italic">de la parole</text>
+  </g>
+
+  <!-- Tension 3 -->
+  <g transform="translate(700,110)">
+    <ellipse cx="150" cy="200" rx="150" ry="200" fill="url(#r3)" stroke="#1565c0" stroke-width="2"/>
+    <text x="150" y="50" text-anchor="middle" font-weight="700" font-size="15" fill="#5e2ca5">Tension 3</text>
+    <text x="150" y="72" text-anchor="middle" font-size="13" font-weight="600">Travail prescrit</text>
+    <text x="150" y="90" text-anchor="middle" font-size="11">↕</text>
+    <text x="150" y="108" text-anchor="middle" font-size="13" font-weight="600">Travail réel</text>
+
+    <line x1="40" y1="125" x2="260" y2="125" stroke="#1565c0" opacity="0.4"/>
+
+    <text x="150" y="155" text-anchor="middle" font-size="11" font-style="italic">« L'impossibilité</text>
+    <text x="150" y="170" text-anchor="middle" font-size="11" font-style="italic">du conflit rend malade »</text>
+    <text x="150" y="184" text-anchor="middle" font-size="10" fill="#666">Clot 2008</text>
+
+    <text x="150" y="212" text-anchor="middle" font-size="11" font-weight="600">Outils théoriques</text>
+    <text x="150" y="230" text-anchor="middle" font-size="11">Clinique de l'activité</text>
+    <text x="150" y="244" text-anchor="middle" font-size="11">Street-level bureaucracy</text>
+
+    <text x="150" y="274" text-anchor="middle" font-size="11" font-weight="600">Lectures</text>
+    <text x="150" y="292" text-anchor="middle" font-size="11">Lipsky · Dubois</text>
+    <text x="150" y="306" text-anchor="middle" font-size="11">Lenzi &amp; Moine 2025</text>
+    <text x="150" y="320" text-anchor="middle" font-size="10" fill="#666">Hochschild · Schön</text>
+
+    <text x="150" y="345" text-anchor="middle" font-size="10" fill="#5e2ca5" font-style="italic">Autonomie</text>
+    <text x="150" y="360" text-anchor="middle" font-size="10" fill="#5e2ca5" font-style="italic">discrétionnaire</text>
+  </g>
+
+  <!-- Bandeau bas -->
+  <rect x="80" y="510" width="840" height="60" rx="10" fill="#5e2ca5" opacity="0.92"/>
+  <text x="500" y="535" text-anchor="middle" font-size="14" font-weight="600" fill="white">La posture professionnelle n'est pas un trait personnel.</text>
+  <text x="500" y="557" text-anchor="middle" font-size="13" fill="white">C'est un travail réflexif quotidien sur trois tensions structurelles.</text>
+
+  <text x="500" y="592" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Pierre Brasseur · HETS Genève · 2026</text>
+</svg>
