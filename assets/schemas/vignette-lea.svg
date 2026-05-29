@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Inter, system-ui, sans-serif">
+  <text x="500" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1a1a2e">La situation de Léa</text>
+  <text x="500" y="62" text-anchor="middle" font-size="13" fill="#666">L'Atelier · Fondation Ensemble · Genève</text>
+
+  <!-- Léa au centre -->
+  <g transform="translate(400,200)">
+    <circle cx="100" cy="100" r="85" fill="#fff3cd" stroke="#f6b40e" stroke-width="3"/>
+    <text x="100" y="80" text-anchor="middle" font-weight="700" font-size="18" fill="#5e2ca5">Léa</text>
+    <text x="100" y="100" text-anchor="middle" font-size="12">22 ans · T21</text>
+    <text x="100" y="125" text-anchor="middle" font-size="10" fill="#666" font-style="italic">« Je veux un</text>
+    <text x="100" y="138" text-anchor="middle" font-size="10" fill="#666" font-style="italic">appartement à moi</text>
+    <text x="100" y="151" text-anchor="middle" font-size="10" fill="#666" font-style="italic">et un amoureux »</text>
+  </g>
+
+  <!-- Mère à gauche -->
+  <g transform="translate(80,200)">
+    <circle cx="100" cy="100" r="70" fill="#fde2e2" stroke="#c44" stroke-width="2"/>
+    <text x="100" y="85" text-anchor="middle" font-weight="700" font-size="15">La mère</text>
+    <text x="100" y="105" text-anchor="middle" font-size="11">vient le week-end</text>
+    <text x="100" y="130" text-anchor="middle" font-size="10" fill="#666" font-style="italic">« La raisonner »</text>
+  </g>
+
+  <!-- Équipe à droite -->
+  <g transform="translate(720,200)">
+    <circle cx="100" cy="100" r="70" fill="#d6eaf8" stroke="#1565c0" stroke-width="2"/>
+    <text x="100" y="85" text-anchor="middle" font-weight="700" font-size="15">L'équipe</text>
+    <text x="100" y="105" text-anchor="middle" font-size="11">en réunion</text>
+    <text x="100" y="130" text-anchor="middle" font-size="10" fill="#666" font-style="italic">« Que faire ? »</text>
+  </g>
+
+  <!-- Flèches relationnelles -->
+  <line x1="250" y1="300" x2="395" y2="300" stroke="#5e2ca5" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="322" y="290" text-anchor="middle" font-size="10" fill="#5e2ca5">Protection</text>
+
+  <line x1="605" y1="300" x2="750" y2="300" stroke="#5e2ca5" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="678" y="290" text-anchor="middle" font-size="10" fill="#5e2ca5">Accompagnement</text>
+
+  <!-- Trois questions en bas -->
+  <g transform="translate(60,440)">
+    <rect width="280" height="120" rx="10" fill="#f7f5fb" stroke="#5e2ca5"/>
+    <text x="140" y="25" text-anchor="middle" font-size="12" font-weight="700" fill="#5e2ca5">Question 1</text>
+    <text x="140" y="50" text-anchor="middle" font-size="11">À quel modèle se rattache</text>
+    <text x="140" y="65" text-anchor="middle" font-size="11">chaque position ?</text>
+    <text x="140" y="95" text-anchor="middle" font-size="10" fill="#666" font-style="italic">→ Quatre modèles</text>
+    <text x="140" y="108" text-anchor="middle" font-size="10" fill="#666" font-style="italic">du handicap</text>
+  </g>
+
+  <g transform="translate(360,440)">
+    <rect width="280" height="120" rx="10" fill="#fff8e6" stroke="#b8860b"/>
+    <text x="140" y="25" text-anchor="middle" font-size="12" font-weight="700" fill="#b8860b">Question 2</text>
+    <text x="140" y="50" text-anchor="middle" font-size="11">Quelles transformations</text>
+    <text x="140" y="65" text-anchor="middle" font-size="11">ouvrent des marges ?</text>
+    <text x="140" y="95" text-anchor="middle" font-size="10" fill="#666" font-style="italic">→ Désinstitutionnalisation</text>
+    <text x="140" y="108" text-anchor="middle" font-size="10" fill="#666" font-style="italic">Contribution d'assistance</text>
+  </g>
+
+  <g transform="translate(660,440)">
+    <rect width="280" height="120" rx="10" fill="#d6eaf8" stroke="#1565c0"/>
+    <text x="140" y="25" text-anchor="middle" font-size="12" font-weight="700" fill="#1565c0">Question 3</text>
+    <text x="140" y="50" text-anchor="middle" font-size="11">Quelle posture permet de</text>
+    <text x="140" y="65" text-anchor="middle" font-size="11">tenir les trois positions ?</text>
+    <text x="140" y="95" text-anchor="middle" font-size="10" fill="#666" font-style="italic">→ Trois tensions</text>
+    <text x="140" y="108" text-anchor="middle" font-size="10" fill="#666" font-style="italic">structurelles</text>
+  </g>
+
+  <text x="500" y="590" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Pierre Brasseur · HETS Genève · 2026 · Vignette pédagogique référée à un dispositif réel, non identifiante</text>
+</svg>
